@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22,25 +22,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -58,7 +58,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -485,6 +485,22 @@
 <rectangle x1="0.635" y1="10.795" x2="3.175" y2="14.605" layer="40"/>
 <rectangle x1="40.005" y1="30.48" x2="42.545" y2="34.29" layer="40"/>
 <rectangle x1="40.005" y1="10.795" x2="42.545" y2="14.605" layer="40"/>
+<wire x1="0.635" y1="34.29" x2="0.635" y2="30.48" width="0" layer="20"/>
+<wire x1="0.635" y1="30.48" x2="1.905" y2="30.48" width="0" layer="20"/>
+<wire x1="1.905" y1="30.48" x2="1.905" y2="34.29" width="0" layer="20"/>
+<wire x1="1.905" y1="34.29" x2="0.635" y2="34.29" width="0" layer="20"/>
+<wire x1="0.635" y1="14.605" x2="0.635" y2="10.795" width="0" layer="20"/>
+<wire x1="0.635" y1="10.795" x2="1.905" y2="10.795" width="0" layer="20"/>
+<wire x1="1.905" y1="10.795" x2="1.905" y2="14.605" width="0" layer="20"/>
+<wire x1="1.905" y1="14.605" x2="0.635" y2="14.605" width="0" layer="20"/>
+<wire x1="41.275" y1="14.605" x2="42.545" y2="14.605" width="0" layer="20"/>
+<wire x1="42.545" y1="14.605" x2="42.545" y2="10.795" width="0" layer="20"/>
+<wire x1="42.545" y1="10.795" x2="41.275" y2="10.795" width="0" layer="20"/>
+<wire x1="41.275" y1="10.795" x2="41.275" y2="14.605" width="0" layer="20"/>
+<wire x1="42.545" y1="30.48" x2="42.545" y2="34.29" width="0" layer="20"/>
+<wire x1="42.545" y1="34.29" x2="41.275" y2="34.29" width="0" layer="20"/>
+<wire x1="41.275" y1="34.29" x2="41.275" y2="30.48" width="0" layer="20"/>
+<wire x1="41.275" y1="30.48" x2="42.545" y2="30.48" width="0" layer="20"/>
 </package>
 <package name="MSOP10">
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2032" layer="51"/>

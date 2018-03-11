@@ -481,10 +481,10 @@
 <text x="22.225" y="27.305" size="1.016" layer="21" font="fixed" ratio="9" rot="R90">CE</text>
 <hole x="38.735" y="3.175" drill="1.524"/>
 <hole x="4.445" y="28.575" drill="1.524"/>
-<rectangle x1="1.905" y1="30.48" x2="3.175" y2="34.29" layer="40"/>
-<rectangle x1="1.905" y1="10.795" x2="3.175" y2="14.605" layer="40"/>
-<rectangle x1="40.005" y1="30.48" x2="41.275" y2="34.29" layer="40"/>
-<rectangle x1="40.005" y1="10.795" x2="41.275" y2="14.605" layer="40"/>
+<rectangle x1="0.635" y1="30.48" x2="3.175" y2="34.29" layer="40"/>
+<rectangle x1="0.635" y1="10.795" x2="3.175" y2="14.605" layer="40"/>
+<rectangle x1="40.005" y1="30.48" x2="42.545" y2="34.29" layer="40"/>
+<rectangle x1="40.005" y1="10.795" x2="42.545" y2="14.605" layer="40"/>
 </package>
 <package name="MSOP10">
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2032" layer="51"/>
