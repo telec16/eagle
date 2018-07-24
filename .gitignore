@@ -1,1 +1,13 @@
 /internet_libs/*
+
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+
+*.lck
+
+!.gitignore
+*.zip
